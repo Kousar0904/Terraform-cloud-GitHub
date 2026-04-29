@@ -11,6 +11,7 @@ terraform {
 provider "aws" {
         region = "eu-north-1" 
         #profile = "default"
+        #changed ntg
 	}
 
 resource "aws_instance" "kousarinfra" {
